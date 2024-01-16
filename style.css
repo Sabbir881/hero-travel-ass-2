@@ -3,9 +3,11 @@
     padding: 0;
     margin: 0;
 }
-img{
+
+img {
     max-width: 100%;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -45,6 +47,11 @@ body {
     align-items: center;
 }
 
+.nav-img {
+    display: flex;
+    gap: 10px;
+}
+
 .nave-list {
     display: flex;
     align-items: center;
@@ -63,6 +70,12 @@ body {
     font-weight: 700;
     color: #424247;
     margin: 0 30px;
+
+}
+
+.hembur {
+    font-size: 30px;
+    display: none;
 
 }
 
@@ -124,8 +137,8 @@ form {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    
-    
+
+
 
 }
 
@@ -143,7 +156,7 @@ form {
     margin: auto;
 }
 
-.popular-left ul li{
+.popular-left ul li {
     font-size: 16px;
     font-weight: 400;
     margin-top: 25px;
@@ -170,145 +183,157 @@ form {
     font-weight: 400;
     margin-top: 25px;
 }
-.under-p{
-    width:550px;
+
+.under-p {
+    width: 550px;
     margin-top: 30px;
 }
-.popular-btn{
-    border-radius: 8px;
-background: #FF5400;
-border: 0;
-padding: 9px 18px;
 
-color: #FFF;
-text-align: center;
-font-size: 18px;
-font-weight: 800;
-margin-top: 28px;
+.popular-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    padding: 9px 18px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 28px;
 }
 
 
 /* Dastination Css style start */
-.Destineation{
+.Destineation {
     margin-top: 50px;
 }
 
-.desti-title{
+.desti-title {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.desti-title h1{
+.desti-title h1 {
     color: #131318;
-font-family: Mulish;
-font-size: 40px;
-font-weight: 800;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
 
 
 }
 
-.desti-title p{
+.desti-title p {
     color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-width: 55%;
-margin: auto;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 55%;
+    margin: auto;
 
 }
 
-.first-img-row{
- 
-display: grid;
-grid-template-columns: 49%  49%;
-gap: 24px;
+.first-img-row {
+
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 24px;
 
 }
-.first-img-row img{
+
+.first-img-row img {
     width: 100%;
 }
-    
 
-.second-img-row{
-     display: grid; 
-    grid-template-columns:30%  45% 30% ;
+
+.second-img-row {
+    display: grid;
+    grid-template-columns: 30% 45% 30%;
     gap: 24px;
+
+
+}
+
+
+
+.third-img-row {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 24px;
+
+}
+
+
+
+
+.all-choose {}
+
+.choose-title {
+    margin: 50px 0;
+}
+
+.choose-title h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.choose-title p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 65%;
+    margin: auto;
+
+
+}
+
+.cards {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.mide-div {
+    /* text-align: left;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px; */
+
+
+}
+
+.choose-card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 40px;
+}
+
+.choose-card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 40px;
+}
+
+
+
+.mide-div {
+
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 40px;
+    width: 50%;
    
-    
-}
-
-
-
-.third-img-row{
-  display: grid;
-  grid-template-columns: 40% 60%;
-  gap: 24px;
-    
-}
-
-img{
-    max-width: 100%;
-}
-
-
-
-
-
-
-
-
-@media screen and (max-width:676px) {
-
- 
-body{
-    /* margin: auto; */
-}
-    .navigation {
-        /* flex-direction: column; */
-        margin-left: 20px;
-    }
-
-    .nave-list {
-        display: none;
-
-    }
-
-
-    .header-benner {
-        padding: 0;
-    
-    }
-
-    form {
-        flex-direction: column;
-        row-gap: 20px;
-        width: 50%;
-        padding: 10px 20px;
-    }
-
-    .def-wid {
-        width: 100%;
-    }
-
-    .popular-section{
-        flex-direction: column;
-       
-    }
-
-
-    .popular-left{
-        width: 100%;
-    }
-      .popular-left h1{
-        /* font-size: 3vh */
-      }
-    .popular-right{
-        /* width: 100%; */
-        margin-top: 30px;
-    }
-
-    img{
-        max-width: 100%;
-    }
+    margin: auto;
+    margin-top: 30px;
 }
