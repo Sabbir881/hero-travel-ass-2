@@ -1,0 +1,128 @@
+/* Defult Css style */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Mulish;
+}
+
+.o-r-g {
+    color: #FF5400;
+}
+
+.def-wid {
+    font-family: Mulish;
+    height: 45px;
+    width: 140px;
+    padding: 0 20px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+   
+    
+
+}
+
+
+/* header style start */
+
+.header {
+    padding: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nave-list {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navigation .nave-list li {
+    list-style: none;
+}
+
+.navigation .nave-list li a {
+    text-decoration: none;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    color: #424247;
+    margin: 0 30px;
+
+}
+
+.header-benner {
+    margin-top: 50px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+        url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 100px 0;
+}
+
+.benner-content {
+    text-align: center;
+}
+
+.benner-content h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.benner-content p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+}
+
+form{
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 5px;
+    padding: 10px 0px;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(247, 242, 242, 0.4);
+}
+.btn{
+    background-color: #FF5400;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:) {
+    
+}
