@@ -236,9 +236,14 @@ form {
 
 .first-img-row {
 
-    display: grid;
-    grid-template-columns: 49% 49%;
-    gap: 24px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 30px;
+margin-bottom: 30px;
+ 
+
+   
 
 }
 
@@ -248,9 +253,13 @@ form {
 
 
 .second-img-row {
-    display: grid;
-    grid-template-columns: 30% 45% 30%;
-    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+   
+    gap: 30px;
+    margin-bottom: 30px;
 
 
 }
@@ -258,9 +267,10 @@ form {
 
 
 .third-img-row {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 24px;
+    display:flex;
+   flex-direction: row;
+   justify-content: center;
+    gap: 30px;
 
 }
 

@@ -69,7 +69,17 @@
 
 
 
+    .first-img-row {
+       flex-direction: column;
+    }
 
+    .second-img-row {
+        flex-direction: column;
+    }
+
+    .third-img-row{
+        flex-direction: column;
+    }
 
 
 
