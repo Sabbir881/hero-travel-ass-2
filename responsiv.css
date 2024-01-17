@@ -3,7 +3,7 @@
 
 
 
-    img{max-width: 100%;}
+    img {max-width: 100%;}
     body {
         margin-right: 0;
         padding: 0 20px;
@@ -27,8 +27,23 @@
         display: block;
     }
 .benner-content h1{
-   
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
 
+
+}
+.benner-content p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+width: 80%;
+padding-bottom: 5px;
 }
 
     .header-benner {
@@ -90,6 +105,53 @@
 
 
 
+    .news-letter-section{
+        flex-direction: column;
+    }
+
+    .img{
+        width: 100%;
+    }
+    .news-letter-form input{
+        width: 100%;
+
+    }
+    
+
+    .news-btn{
+        width: 100%;
+    }
+
+    .news-letter-img img{
+
+        width: 100%;
+    }
+    .news-letter-form p{
+        width: 100%;
+    }
+
+    .news-letter-img {
+        position: relative;
+    } 
+
+    .news-over{
+        font-size: 8px;
+        position: absolute;
+        bottom: 27px;
+        left: 120px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        
+    
+    }
+    .news-over h1{
+        font-size: 10px;
+
+    }
+    .news-over h4{
+        font-size: 8px;
+    }
+
 
 
 
@@ -129,9 +191,38 @@
 
         flex-direction: column;
         margin-top: 30px;
-        width: 82%;
+        width: 80%;
+
+
 
     }
+    .choose-card-3{
 
+        
+    }
+    .footer-img h1{
+        font-size: 20px;
+        display: flex;
+       align-items: center;
+    }
+
+    hr{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .footer-up p{
+        width: 90%;
+    }
+    .footer-icon-2{
+        padding: 0 10px;
+        font-size: 20px;
+    }
+    
+    .footer-lo{
+        padding: 10px 20;
+    }
 
 }

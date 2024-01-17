@@ -2,7 +2,10 @@
 * {
     padding: 0;
     margin: 0;
+
 }
+
+
 
 img {
     max-width: 100%;
@@ -80,6 +83,7 @@ body {
 }
 
 .header-benner {
+    border-radius: 10px;
     margin-top: 50px;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
         url(./Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -109,7 +113,7 @@ body {
     margin: auto;
 }
 
-form {
+.form-type {
     color: rgba(19, 19, 24, 0.50);
     border-radius: 5px;
     padding: 10px 0px;
@@ -125,6 +129,12 @@ form {
 .btn {
     background-color: #FF5400;
     color: #FFF;
+}
+
+.scrh {
+    padding: 0 0 0 10px;
+    width: 5px;
+    margin-right: 8px;
 }
 
 
@@ -337,16 +347,131 @@ form {
 .mide-div {
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    padding: 40px;
+    padding: 30px;
     width: 50%;
 
     margin: auto;
     margin-top: 30px;
 }
+
+.choose-card-3 {
+    max-width: 100%;
+}
+
+
+/* news letter section */
+
+.Old-section {
+    margin: 50px 0;
+}
+
+.news-letter-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.news-letter-form {
+    border: 1px solid orangered;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+
+
+.news-letter-form h1 {
+
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.news-letter-img {
+    position: relative;
+}
+
+.news-letter-form p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 320px;
+    margin: 20px 0;
+
+}
+
+
+.news-over {
+    color: #FFF;
+    text-align: center;
+    padding: 20px 80px;
+
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    bottom: 54px;
+    left: 315px;
+}
+
+.news-over h1{
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.news-letter-form input {
+    background: rgba(19, 19, 24, 0.05);
+
+
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    padding: 0 0 0 20px;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+
+}
+
+.butn-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.news-btn {
+    width: 100%;
+    width: 393px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -367,7 +492,7 @@ form {
 .footer {
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
-    padding: 100px 0;
+    padding: 30px 0;
 
 
 }
@@ -397,7 +522,7 @@ form {
 }
 
 .footer-lo {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .footer-lo p {
@@ -405,6 +530,18 @@ form {
     font-family: Inter;
     font-size: 16px;
     font-weight: 300;
+
+}
+
+.footer-icon {
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+
+.footer-icon-2 {
+    padding: 0px 20px;
+    margin-bottom: 30px;
 
 }
 
