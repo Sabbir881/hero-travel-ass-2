@@ -50,6 +50,9 @@ padding-bottom: 5px;
         padding: 0;
 
     }
+    .form-type{
+        padding: 10px;
+    }
 
     form {
         flex-direction: column;
